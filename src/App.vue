@@ -1,9 +1,23 @@
-<script></script>
+<script>
+  import Navbar from "./components/Navbar.vue";
+  import Hero from "./components/Hero.vue";
+  import Highlights from "./components/Highlights.vue";
+
+  export default {
+    components: {
+      Navbar,
+      Hero,
+      Highlights
+    }
+  }
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <main class="bg-black">
+    <Navbar />
+    <Hero />
+    <Highlights />
+  </main>
 </template>
 
 <style scoped></style>

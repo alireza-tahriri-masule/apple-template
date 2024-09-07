@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tresjs/core": "^4.2.10",
     "better-commits": "^1.15.7",
     "gsap": "^3.12.5",
     "swiper": "^11.1.12",
+    "three": "^0.168.0",
     "vue": "^3.4.37"
   },
   "devDependencies": {

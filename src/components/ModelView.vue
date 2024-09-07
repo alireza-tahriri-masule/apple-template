@@ -41,7 +41,7 @@ export default {
       document.getElementById("container3D").appendChild(this.renderer.domElement);
 
       // Camera position
-      this.camera.position.z = this.objToRender === "iphone" ? 0.2 : 500;
+      this.camera.position.z = this.objToRender === "iphone" ? 0.16 : 500;
 
       // Lights
       const topLight = new THREE.DirectionalLight(0xffffff, 1);
